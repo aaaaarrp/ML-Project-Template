@@ -1,18 +1,21 @@
-MLProjectStructure - Template
-==============================
+# MLProjectStructure - Template
 
-A short description of the project.
+Inspired from [Cookiecutter-Data-Science-Project-Stucture](https://drivendata.github.io/cookiecutter-data-science/)
 
-Project Organization
-------------
 
-    ├── .gitignore         <- The .gitignore file specifies things that git should ignore. This default template includes entries for R, Python and VS Code.
+### Project Organization 
+
+ A short description of the project.
+
+    ├── .gitignore         <- The .gitignore file specifies things that git should ignore. 
+    │                         This default template includes entries for R, Python and VS Code.
     │     
     ├── LICENSE
     │   
     ├── README.md          <- Manual
     │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g. generated with `pip freeze > requirements.txt`.
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, 
+    │                         e.g. generated with `pip freeze > requirements.txt`.
     │
     ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported.
     │
@@ -36,7 +39,8 @@ Project Organization
     └── src                <- Source code for use in this project.
         ├── __init__.py    <- Makes src a Python module.
         │
-        ├── exception.py   <- Custom exception file to get info about exception like which file, which line.
+        ├── exception.py   <- Custom exception file to get info about exceptions,
+        │                     like which file, which line.
         │
         ├── logger.py      <- Custom logger to log basic info.
         │
@@ -50,6 +54,7 @@ Project Organization
             └── train_model.py
 
 
+---
 
 
 
