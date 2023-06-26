@@ -1,0 +1,5 @@
+# write down your package names here
+
+-e .    # Comment this when running this file
+
+    
